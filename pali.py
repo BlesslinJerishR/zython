@@ -13,14 +13,15 @@ def pali(String):
          > "".join()
          > reversed()
     """
+    # String = String.lower() == "".join(String[::-1]).lower()
+    String = String.lower() == "".join(reversed(String)).lower()
      
     if String:
         print("I am a Palindrome")
     else:
         print("I am not a Palindrome")
 
-    # return String.lower() == "".join(String[::-1]).lower()
-    return String.lower() == "".join(reversed(String)).lower
+    return String
 
 
 def shell_pali(String):
@@ -37,11 +38,12 @@ def shell_pali(String):
        > "".join()
        > reversed() 
     """
-    String = str(input("Enter an Sting to check Palindorme Syndrome"))
+    String = str(input("Enter an Sting to check Palindorme Syndrome : "))
+    # String = String.lower() == "".join(String[::-1]).lower()
+    String = String.lower() == "".join(reversed(String)).lower()
+    
     if String:
         print("I am a Palindrome")
     else:
         print("I am not a Palindrome")
-        
-    # return String.lower() == "".join(String[::-1]).lower()
-    return String.lower() == "".join(reversed(String)).lower
+    return String        
