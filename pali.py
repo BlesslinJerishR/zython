@@ -1,11 +1,17 @@
 def pali(String):
     """Check an String as a Palindrome or Not ?
-       # buy String
-       # trade L:op
-       # curl pali 
+    
+      / usage 
+         . pali.pali(para)
        
-       > "".join()
-       > reversed()
+      /docs 
+         # buy String
+         # trade L:op
+         # curl pali 
+       
+      /libs
+         > "".join()
+         > reversed()
     """
      
     if String:
@@ -19,9 +25,14 @@ def pali(String):
 
 def shell_pali(String):
     """Check an Input String as a Palindrome or Not ?
-       # get String
-       # trade L:op
-       # curl pali 
+    
+      / usage
+         . pali.shell_pali(para)
+      
+      /docs
+         # get String
+         # trade L:op
+         # curl pali 
        
        > "".join()
        > reversed() 
