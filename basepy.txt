@@ -1,0 +1,52 @@
+import pkg_name;
+
+vname;
+vname = value;
+name = "jerry"
+number = 01
+
+str
+int
+float
+bool
+char
+
+print(name)
+print("")
+uname = name.upper()
+print(uname)
+
+print(type(name))
+
+0       -> int
+""      -> string
+vname = -> Variable
+class() -> Class
+vname.dot_operator -> Method
+
+= -> assign
+== --> kya ?
+
+if:
+  - elif
+  - else
+    
+    for:
+        in
+        range
+
+        while:
+
+    
+       and 
+       or
+       =
+       !=
+       >
+       <
+       >=
+       <=
+    
+def fname(parameter1, parameter2):
+    conditions
+    return null
